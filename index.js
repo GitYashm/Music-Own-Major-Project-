@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const mongoose = require("mongoose");
-const Mongo_URL = "mongodb://127.0.0.1:27017/Music-Own";
+const Mongo_URL = "mongodb+srv://yash571w1:Yash123@cluster0.vajj4kd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const methodOverride = require("method-override");
 const ejsMate = require("ejs-mate");
 const session = require('express-session');
