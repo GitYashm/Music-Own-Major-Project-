@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const initData = require("./data.js");
 const Listing = require("../models/contactSchema.js");
 
-const Mongo_URL = "mongodb://127.0.0.1:27017/Music-Own";
+const Mongo_URL = "mongodb+srv://yash571w1:Yash123@cluster0.vajj4kd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 main()
 .then(()=>{
     console.log("connected");
