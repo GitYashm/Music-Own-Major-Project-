@@ -82,8 +82,12 @@ var options = {
     method: 'GET',
     url: 'https://spotify-scraper.p.rapidapi.com/v1/track/download',
 
-    headers: {
-		'x-rapidapi-key': '3286a6cf9dmsh80f3a0faa61ef82p1f5748jsna61d5973a71d',
+ //    headers: {
+	// 	'x-rapidapi-key': '3286a6cf9dmsh80f3a0faa61ef82p1f5748jsna61d5973a71d',
+	// 	'x-rapidapi-host': 'spotify-scraper.p.rapidapi.com'
+	// }
+	headers: {
+		'x-rapidapi-key': '9ecc63482cmsh79fdbcc4e31a22dp12d90bjsnecbc5789de4a',
 		'x-rapidapi-host': 'spotify-scraper.p.rapidapi.com'
 	}
 };
