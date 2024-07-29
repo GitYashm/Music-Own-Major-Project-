@@ -90,7 +90,7 @@ var options = {
 app.use(express.json());
 app.use('/', userRoutes);
 
-app.get("/", (req, res) => {
+app.get("/home", (req, res) => {
     res.render("home.ejs");
 })
 app.get("/login", (req, res) => {
